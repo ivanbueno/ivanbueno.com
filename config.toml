@@ -1,130 +1,85 @@
-baseURL = ""
-languageCode = "en-us"
+baseurl = ""
 title = "Ivan Bueno"
-theme = "meghna-hugo"
 
-# Menu
-[menu]
-    [[menu.nav]]
-    name = "About Us"
-    URL = "about"
-    weight = 2
+theme = "coder-portfolio"
 
-    [[menu.nav]]
-    name = "Service"
-    URL = "services"
-    weight = 3
+DefaultContentLanguage = "en"
 
-    [[menu.nav]]
-    name = "Portfolio"
-    URL = "portfolio"
-    weight = 4
+paginate = 20
 
-#    [[menu.nav]]
-#    name = "Team"
-#    URL = "our-team"
-#    weight = 5
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+pygmentsUseClasses = true
 
-#    [[menu.nav]]
-#    name = "Pricing"
-#    URL = "pricing"
-#    weight = 6
+disqusShortname = ""
 
-    [[menu.nav]]
-    name = "Blog"
-    URL = "blog"
-    weight = 7
-
-#    [[menu.nav]]
-#    name = "Contact"
-#    URL = "contact-us"
-#    weight = 8
-
-# Site params
 [params]
-home= "Home"
-logo = "images/logo.png"
-gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-# Meta data
-description = "Ivan Bueno"
-author = "ivanbueno"
-# Google Analitycs
-googleAnalitycsID = ""
-custom_css = ["css/custom.css"]
+    author = "Ivan Bueno"
+    description = "Ivan Bueno's personal website"
+    keywords = "full stack developer, drupal architect, software engineer"
+    info = "FULL STACK DEVELOPER"
+    avatarurl = "images/avatar.jpg"
+    footercontent = ""
+    fixedbarContent = "Aloha... "
+    fixedbarContentAfter = "...San Francisco Bay Area!"
 
-    # Banner Section
-    [params.banner]
-    enable = true
-    bgImage = "images/slider/hero-area.jpg"
-    icon = "tf-ion-play"
-    heading = "Ivan Bueno"
-    content= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi. At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!"
-    btn = true
-    btnText="Explore Us"
-    btnURL="#services"
+    hideCredits = true
+    hideCopyright = true
 
-    # call to action
-    [params.cta]
-    enable = true
-    title = "Great Design & Incredible Features"
-    content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
-    btnURL = "#"
-    btnText = "Start a project with us"
+    snsShare = false
 
-    # counter
-    [params.counter]
-    enable = true
-    bgImage = "images/backgrounds/bg-1.jpg"
-        [[params.counter.counterItem]]
-        title = "Happy Clients"
-        icon = "tf-ion-android-happy"
-        count = "320"
+    thumbnail = "images/tn.png"
 
-        [[params.counter.counterItem]]
-        title = "Projects completed"
-        icon = "tf-ion-archive"
-        count = "565"
+    # Custom CSS
+    custom_css = []
 
-        [[params.counter.counterItem]]
-        title = "Positive feedback"
-        icon = "tf-ion-thumbsup"
-        count = "95"
+    # Alignment of Mobile Menu items
+    itemscentered = true
 
-        [[params.counter.counterItem]]
-        title = "Cups of Coffee"
-        icon = "tf-ion-coffee"
-        count = "2500"
-    
-    # footer
-    [params.footer]
-        copyright = "Ivan Bueno"
-        copyrightURL = "http://www.ivanbueno.com"
+    # RTL support
+    rtl = false
 
-        # social Icons
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-facebook"
-        url = "#"
-        
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-twitter"
-        url = "#"
-        
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-google-outline"
-        url = "#"
-        
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-youtube"
-        url = "#"
-        
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-linkedin"
-        url = "#"
-        
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-dribbble-outline"
-        url = "#"
-        
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-pinterest-outline"
-        url = "#"
+    langseparator = "|"
+
+[[params.social]]
+    name = "Github"
+    weight = 2
+    url = "https://github.com/ivanbueno/"
+#[[params.social]]
+#    name = "Twitter"
+#    weight = 2
+#    url = "https://twitter.com/naro143/"
+[[params.social]]
+    name = "LinkedIn"
+    weight = 1
+    url = "https://www.linkedin.com/in/ivanbueno/"
+
+[languages]
+    [languages.en]
+        languagecode = "en"
+        languagename = "English" # The language name to be displayed in the selector.
+        title = "Ivan Bueno"
+
+        # You can configure the theme parameter for each language.
+
+        [languages.en.menu] # It is possible to change the menu too.
+
+           # [[languages.en.menu.main]]
+           #     name = "About"
+           #     weight = 1.0
+           #     url = "about"
+
+           # [[languages.en.menu.main]]
+           #     name = "Blog"
+           #     weight = 2.0
+           #     url = "posts"
+
+           # [[languages.en.menu.main]]
+           #     name = "Projects"
+           #     weight = 3
+           #     url = "projects"
+           # [[languages.en.menu.main]]
+           #     name = "Contact me"
+           #     weight = 5
+           #     url = "contact"
