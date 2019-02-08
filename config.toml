@@ -49,7 +49,7 @@ gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSp
 description = "Ivan Bueno"
 author = "ivanbueno"
 # Google Analitycs
-googleAnalitycsID = "Your ID"
+googleAnalitycsID = ""
 custom_css = ["css/custom.css"]
 
     # Banner Section
