@@ -22,7 +22,7 @@ disqusShortname = ""
     avatarurl = "images/avatar.jpg"
     footercontent = ""
     fixedbarContent = "Aloha... "
-    fixedbarContentAfter = "...San Francisco Bay Area!"
+    fixedbarContentAfter = "...Milky Way!"
 
     hideCredits = true
     hideCopyright = true
@@ -43,6 +43,10 @@ disqusShortname = ""
     langseparator = "|"
 
 [[params.social]]
+    name = "LinkedIn"
+    weight = 1
+    url = "https://www.linkedin.com/in/ivanbueno/"
+[[params.social]]
     name = "Github"
     weight = 2
     url = "https://github.com/ivanbueno/"
@@ -50,10 +54,6 @@ disqusShortname = ""
 #    name = "Twitter"
 #    weight = 2
 #    url = "https://twitter.com/naro143/"
-[[params.social]]
-    name = "LinkedIn"
-    weight = 1
-    url = "https://www.linkedin.com/in/ivanbueno/"
 
 [languages]
     [languages.en]
@@ -70,10 +70,10 @@ disqusShortname = ""
            #     weight = 1.0
            #     url = "about"
 
-           # [[languages.en.menu.main]]
-           #     name = "Blog"
-           #     weight = 2.0
-           #     url = "posts"
+            [[languages.en.menu.main]]
+                name = "Blog"
+                weight = 2.0
+                url = "posts"
 
            # [[languages.en.menu.main]]
            #     name = "Projects"
