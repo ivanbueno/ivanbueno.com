@@ -12,7 +12,8 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 pygmentsUseClasses = true
 
-disqusShortname = ""
+disqusShortname = "ivanbueno"
+googleanalytics = "UA-42641088-6"
 
 [params]
     author = "Ivan Bueno"
