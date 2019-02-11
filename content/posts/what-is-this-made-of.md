@@ -7,6 +7,4 @@ math = "true"
 
 ---
 
-This site is made with [Hugo](http://gohugo.io/). Hugo is a static site engine written in Go.
-
-It is hosted on [Github Pages](https://pages.github.com/).
+This website is made with [Hugo](http://gohugo.io/), a static site engine written in Go, and hosted on [Github Pages](https://pages.github.com/).
