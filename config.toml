@@ -51,10 +51,10 @@ googleanalytics = "UA-42641088-6"
     name = "Github"
     weight = 2
     url = "https://github.com/ivanbueno/"
-#[[params.social]]
-#    name = "Twitter"
-#    weight = 2
-#    url = "https://twitter.com/naro143/"
+[[params.social]]
+    name = "Patents"
+    weight = 3
+    url = "https://patents.justia.com/inventor/ivan-bueno"
 
 [languages]
     [languages.en]
